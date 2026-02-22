@@ -1,0 +1,40 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+pydantic==2.10.3
+python-dotenv==1.0.1
+httpx==0.28.1
+
+# LangChain ecosystem
+langchain==0.3.13
+langchain-community==0.3.13
+langchain-google-genai==2.0.8
+langgraph==0.2.60
+
+# Hugging Face local models
+torch
+transformers
+accelerate
+langchain-huggingface
+sentence-transformers
+
+# Google OAuth + Drive API (replaces MCP)
+google-api-python-client==2.154.0
+google-auth==2.36.0
+google-auth-oauthlib==1.2.1
+google-auth-httplib2==0.2.0
+
+# Session / JWT
+PyJWT==2.10.1
+
+# File Parsing
+pypdf==5.1.0
+python-docx==1.1.2
+python-pptx==1.0.2
+openpyxl==3.1.5
+pandas==2.2.3
+Pillow==11.0.0
+
+# Utilities
+aiofiles==24.1.0
+python-multipart==0.0.20
+tenacity==9.0.0
